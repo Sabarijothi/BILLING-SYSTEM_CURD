@@ -1,0 +1,119 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+h1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Autour_One variant0", Tofu;
+}
+.divi{
+    padding-left: 40px;
+    font-size: medium;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Autour_One variant0", Tofu;
+}
+.bg {
+    /* The image used */
+    background-image: url("./image/fruits_anim_1.gif");
+    /* background-color: black; */
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(50px)
+  }
+  #productsDisplay{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Autour_One variant0", Tofu;
+    text-transform: uppercase;
+  }
+  button{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .btn{
+    margin-left: 15px;
+  }
+  .card img:hover{
+    transform: scale(1.1); 
+  }
+  .card{
+    border-radius: 10px;
+    background-color: rgb(203, 203, 110);
+  }
+  .card-title{
+    text-align: center;
+    font-family: "Autour_One variant0", Tofu;
+    
+  }
+  .col-total label{
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Autour_One variant0", Tofu;
+  text-transform: uppercase;
+}
+.col-total img{
+  width:200px;
+  height:180px;
+  animation: animate  3.5s linear infinite;
+  filter: brightness(100%); 
+
+}
+@keyframes animate { 
+  0% { 
+      opacity: 0.5; 
+  } 
+
+  50% { 
+      opacity: 0.7; 
+  } 
+
+  100% { 
+      opacity: 0.9; 
+  } 
+} 
+/* .col-total #discount{
+  font-size: x-large;
+  
+} */
+.col-total input{
+  width:200px;
+  height:50px;
+  border-radius: 10px;
+  font-size: x-large;
+  font-family: "Autour_One variant0", Tofu;
+  padding-left: 20px;
+}
+.bill{
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Autour_One variant0", Tofu;
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+.bill input{
+  width:200px;
+  height:50px;
+  border-radius: 10px;
+  font-size: xx-large;
+  font-family: "Autour_One variant0", Tofu;
+}
+.col-total span{
+  font-size: xx-large;
+}
